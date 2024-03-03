@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <link rel="icon" href="img/logo y nombre .png" />
+    <title>GPS TECHNOLOGY</title>
+    <meta charset="utf-8" />
+    <meta name="keywords"
+        content="gps manizales, gps para taxis, tracker vehicular, rastreo tracker, seguridad electronica para moto, gps para moto">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <!-- Enlaza los archivos CSS de Bootstrap y tu CSS personalizado aquí -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+</head>
+
+<body>
+        <!-- Header -->
+    <header>
+        <!-- Incluye la barra de navegación -->
+        <div id="navbar-placeholder"></div>
+         <script>
+             fetch('navbar.html')
+                 .then(response => response.text())
+                 .then(data => {
+                     document.getElementById('navbar-placeholder').innerHTML = data;
+                 });
+         </script>
+            </header>
+
+<section>
+    <div class="d-flex align-items-center justify-content-center vh-100">
+        <div class="text-center">
+            <h1 class="display-1 fw-bold">Error 404</h1>
+            <p class="fs-3"> <span class="text-danger">Ups!!!</span> Algo salio mal.</p>
+            <div class="container">
+                <p class="lead">
+                    Al parecer nuestros servidores no encuentran la página que estás buscando. <br> Pero no te preocupes, todo está bien, da clic en seguir navegando en la web, esperamos sea de su agrado.
+                  </p>
+                 
+                
+                <a href="index.html" class="btn btn-primary">Seguir navegando en web</a>
+                <br>
+                <br>
+                <p class="lead">Por favor, no olvides contactarnos, si tienes alguna duda e inquietud…</p><a class="bi bi-chat-dots btn btn-primary" href="contacto.html">    Contactar</a>
+            </div>
+        </div>
+    </div>
+</section>
+        
+
+        <!-- Footer -->
+        <footer>
+            <!-- Incluye el footer -->
+         <div id="footer-placeholder"></div>
+         <script>
+             fetch('footer.html')
+                 .then(response => response.text())
+                 .then(data => {
+                     document.getElementById('footer-placeholder').innerHTML = data;
+                 });
+         </script>
+        </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.dropotron.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
